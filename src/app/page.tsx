@@ -14,7 +14,7 @@ export default function Home() {
           priority
         />
         <ol>
-          <li>ONIIIs</li>
+          <li>ONIII</li>
           <li>Save and see your changes instantly.</li>
         </ol>
 
