@@ -4,7 +4,8 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 
 const SPOTIFY_URL = "https://api.spotify.com/v1/me/player/currently-playing";
-const ACCESS_TOKEN = process.env.SPOTIFY_ACCESS_TOKEN; // put your token in .env.local
+const ACCESS_TOKEN =
+  "BQAAdrN2wMyGP_O68-OThPWOSdQp4GIBv80w9fu1TYJ5k3atpfCtk93R9D-YE1qmARiIwxVtqyRpOGQt49TOzMW1YqtYaQETHXlwWct7Dp6xMCA-odw5cxI7bfybL-tglKNapdt7le253JI2eMrPTLRZF2OPsqYB3Ak71ljRXQDGmumllQQEaolhgot8m_HPKqiekZ7nKCuO9qSLpzwdI_nxjccl3VVDRmGaEZcNbFdA_dU";
 
 export default async function handler(
   req: NextApiRequest,
